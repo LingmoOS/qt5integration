@@ -1,7 +1,7 @@
 Source: qt5integration
 Section: devel
 Priority: optional
-Maintainer: Shanshan Ye <yeshanshan@uniontech.com>
+Maintainer: Lingmo OS Team <team@lingmo.org>
 Build-Depends:
  debhelper-compat (= 12),
  cmake,
@@ -27,7 +27,8 @@ Build-Depends:
  libdtk6gui-dev <!nodtk6>,
  libdtk6widget-dev <!nodtk6>,
  qt6-svg-dev <!nodtk6>
-Standards-Version: 3.9.8
+Standards-Version: 4.5.0
+Homepage: https://github.com/LingmoOS/qt5integration
 
 Package: dde-qt5integration
 Architecture: any
