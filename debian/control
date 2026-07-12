@@ -30,16 +30,16 @@ Build-Depends:
 Standards-Version: 4.5.0
 Homepage: https://github.com/LingmoOS/qt5integration
 
-Package: dde-qt5integration
+Package: lingmo-qt5integration
 Architecture: any
 Provides: libqt5deepintheme-plugin
 Conflicts: libqt5deepintheme-plugin
-Depends: ${shlibs:Depends}, ${misc:Depends}, dde-qt5xcb-plugin
+Depends: ${shlibs:Depends}, ${misc:Depends}, lingmo-qt5xcb-plugin
 Build-Profiles: <!nodtk5>
 Description: Qt platform theme integration plugins for DDE (DTK5 with Qt5)
  Multiple Qt plugins to provide better Qt5 integration for DDE is included.
 
-Package: dde-qt6integration
+Package: lingmo-qt6integration
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Build-Profiles: <!nodtk6>

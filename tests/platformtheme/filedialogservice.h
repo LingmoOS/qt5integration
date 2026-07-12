@@ -11,9 +11,9 @@
 class FileDialogService : public QObject
 {
     Q_OBJECT
-    Q_CLASSINFO("D-Bus Interface", "com.deepin.filemanager.filedialog")
+    Q_CLASSINFO("D-Bus Interface", "com.lingmo.filemanager.filedialog")
     Q_CLASSINFO("D-Bus Introspection", ""
-                                       "  <interface name=\"com.deepin.filemanager.filedialog\">\n"
+                                       "  <interface name=\"com.lingmo.filemanager.filedialog\">\n"
                                        "    <property access=\"readwrite\" type=\"s\" name=\"directory\"/>\n"
                                        "    <property access=\"readwrite\" type=\"s\" name=\"directoryUrl\"/>\n"
                                        "    <property access=\"readwrite\" type=\"as\" name=\"nameFilters\">\n"

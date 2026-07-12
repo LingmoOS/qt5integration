@@ -12,9 +12,9 @@
 class FileDialogManagerService : public QObject
 {
     Q_OBJECT
-    Q_CLASSINFO("D-Bus Interface", "com.deepin.filemanager.filedialogmanager")
+    Q_CLASSINFO("D-Bus Interface", "com.lingmo.filemanager.filedialogmanager")
     Q_CLASSINFO("D-Bus Introspection", ""
-                                       "  <interface name=\"com.deepin.filemanager.filedialogmanager\">\n"
+                                       "  <interface name=\"com.lingmo.filemanager.filedialogmanager\">\n"
                                        "    <method name=\"createDialog\">\n"
                                        "      <arg direction=\"in\" type=\"s\" name=\"key\"/>\n"
                                        "      <arg direction=\"out\" type=\"o\" name=\"path\"/>\n"

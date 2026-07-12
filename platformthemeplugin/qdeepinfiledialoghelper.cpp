@@ -362,7 +362,7 @@ void QDeepinFileDialogHelper::initDBusFileDialogManager()
         dialogService = DIALOG_SERVICE;
     }
 
-    const auto *managerObjectPath = "/com/deepin/filemanager/filedialogmanager";
+    const auto *managerObjectPath = "/com/lingmo/filemanager/filedialogmanager";
     auto conn = QDBusConnection::sessionBus();
     auto reply = conn.call(QDBusMessage::createMethodCall(dialogService, managerObjectPath , "org.freedesktop.DBus.Peer", "Ping"));
 
