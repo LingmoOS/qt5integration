@@ -33,7 +33,7 @@ DGUI_USE_NAMESPACE
 
 QT_BEGIN_NAMESPACE
 #ifndef DIALOG_SERVICE
-#define DIALOG_SERVICE "com.deepin.filemanager.filedialog"
+#define DIALOG_SERVICE "com.lingmo.filemanager.filedialog"
 #endif
 Q_LOGGING_CATEGORY(fileDialogHelper, "dtk.qpa.fileDialogHelper");
 

@@ -12,10 +12,10 @@
 
 QT_BEGIN_NAMESPACE
 
-class ComDeepinFilemanagerFiledialogInterface;
-typedef ComDeepinFilemanagerFiledialogInterface DFileDialogHandle;
-class ComDeepinFilemanagerFiledialogmanagerInterface;
-typedef ComDeepinFilemanagerFiledialogmanagerInterface DFileDialogManager;
+class ComLingmoFilemanagerFiledialogInterface;
+typedef ComLingmoFilemanagerFiledialogInterface DFileDialogHandle;
+class ComLingmoFilemanagerFiledialogmanagerInterface;
+typedef ComLingmoFilemanagerFiledialogmanagerInterface DFileDialogManager;
 class QDeepinFileDialogHelper : public QPlatformFileDialogHelper
 {
 public:
